@@ -38,8 +38,8 @@ Pasos para la Ejecución
 Clonar el repositorio (o descargar los archivos):
 
 bash
-git clone https://github.com/tu-usuario/tp-mysql-tu-nombre.git
-cd tp-mysql-tu-nombre
+git clone https://github.com/LukeSilvestre/tp-mysql-lucas-silvestre.git
+cd tp-mysql-Lucas-Silvestre
 Importar y ejecutar el script SQL:
 
 Abre tu herramienta de gestión de MySQL (phpMyAdmin, Workbench, etc.).
@@ -59,7 +59,7 @@ Haz clic en "Continuar" o "Ejecutar".
 Alternativa por línea de comandos:
 
 bash
-mysql -u tu_usuario -p < tp-veterinaria_patitas_felices.sql
+mysql -u "usuario" -p < tp-veterinaria_patitas_felices.sql
 Verificar la creación:
 
 Una vez ejecutado el script, deberías ver las 4 tablas listadas.
