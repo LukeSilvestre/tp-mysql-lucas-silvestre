@@ -1,4 +1,4 @@
---Ejercicio 6: INSERT de datos de prueba
+-- Ejercicio 6: INSERT de datos de prueba
 
 INSERT INTO duenios (nombre, apellido, telefono, direccion) VALUES
 ('María', 'González', '11-1234-5678', 'Av. Siempre Viva 123'),

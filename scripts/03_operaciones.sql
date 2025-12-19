@@ -1,6 +1,6 @@
---Ejercicios 7: UPDATE
+-- Ejercicios 7: UPDATE
 
-UPDATE duenio 
+UPDATE duenios
     set direccion = 'Angel Mallea 2906'
 WHERE id = 3;
 
@@ -12,6 +12,6 @@ UPDATE historial_clinico
     set descripcion = 'Castración cancelada'
 WHERE id = 3;
 
---Ejercicio 8: DELETE
+-- Ejercicio 8: DELETE
 DELETE FROM mascotas WHERE nombre = 'Lola';
 
