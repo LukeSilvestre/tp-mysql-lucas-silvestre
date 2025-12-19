@@ -18,14 +18,14 @@ Consultas complejas con JOIN para obtener información combinada de múltiples t
 El esquema consta de 4 tablas interrelacionadas:
 
 Tabla Descripción Clave Primaria
-duenos Almacena la información de los dueños de las mascotas. id
+duenios Almacena la información de los dueños de las mascotas. id
 mascotas Registra las mascotas y las vincula a sus dueños. id
 veterinarios Contiene los datos de los veterinarios y sus especialidades. id
 historial_clinico Guarda el historial médico, vinculando mascotas, veterinarios y fechas. id
 Diagrama de relaciones:
 
 text
-duenos (1) ──< (n) mascotas (1) ──< (n) historial_clinico (n) >── (1) veterinarios
+duenios (1) ──< (n) mascotas (1) ──< (n) historial_clinico (n) >── (1) veterinarios
 🚀 Instalación y Ejecución
 Prerrequisitos
 Servidor MySQL (versión 5.7 o superior) instalado y en ejecución.
@@ -64,7 +64,7 @@ Verificar la creación:
 
 Una vez ejecutado el script, deberías ver las 4 tablas listadas.
 
-Puedes ejecutar consultas de prueba, como SELECT \* FROM duenos;, para confirmar que los datos se insertaron correctamente.
+Puedes ejecutar consultas de prueba, como SELECT \* FROM duenios;, para confirmar que los datos se insertaron correctamente.
 
 📂 Contenido del Repositorio
 Archivo Contenido
